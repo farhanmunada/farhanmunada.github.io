@@ -1,0 +1,188 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 1rem 5%;
+  background-color: rgba(1, 1, 1, 0.5);
+}
+
+.navbar .navbar-logo {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #fff;
+  font-style: italic;
+}
+
+.navbar .navbar-logo span {
+  color: #e6ab0b;
+}
+
+.navbar .navbar-menu a {
+  color: #fff;
+  display: inline-block;
+  font-size: 0.8rem;
+  margin: 0 0.8rem;
+}
+
+.navbar .navbar-menu a:hover {
+  color: #e6ab0b;
+  transition: 0.2s;
+}
+
+/* Navbar End*/
+
+/* Hero */
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero .content {
+  padding: 1rem 5%;
+  max-width: 60%;
+}
+
+.hero .content h1 {
+  font-size: 3em;
+  text-shadow: 1px, 1px, 13px, rgba(1, 1, 1, 0.5);
+  line-height: 1.4;
+  color: #e6ab0b;
+}
+
+.hero .content h1 span {
+  font-style: italic;
+  color: #fff;
+}
+
+.hero .content p {
+  font-size: 0.8rem;
+  line-height: 1.5;
+  margin-top: 1rem;
+}
+
+.hero .content .cta {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e6ab0b;
+  border-radius: 0.8rem;
+}
+
+/* Hero End*/
+
+/* About */
+
+.about {
+  padding: 5rem 5% 1.4rem;
+}
+
+.about h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.about h2 span {
+  color: #e6ab0b;
+}
+
+.about .row {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about .row .about-img {
+  flex: 1 1 45rem;
+}
+
+.about .row .about-img img {
+  width: 70%;
+  margin: 0 5rem;
+}
+
+.about .row .content {
+  flex: 1 1 35rem;
+  padding: 0 1rem;
+}
+
+.about .row .content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.about .row .content p {
+  margin-bottom: 0.5rem;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+
+/* About End */
+
+/* Portfolio Start */
+
+/* .portfolio {
+  padding: 5rem 5% 1.4rem;
+} */
+
+.portfolio h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio .content {
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio .row {
+  display: flex;
+  /* justify-content: flex-start; */
+}
+
+/* .portfolio .row .about-img {
+  flex: 1 1 45rem;
+} */
+
+.portfolio .row .about-img img {
+  width: 30%;
+  margin: 0 5rem;
+  border: solid #e6ab0b;
+}
+
+/* Portfolio End */
